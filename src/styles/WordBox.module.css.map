@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,UAAU;EACN,WAAW,EAAE,UAAU;EACvB,GAAG,EAAE,iDAAiD;;;AAG1D,AAAA,iBAAiB,CAAC;EACd,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,UAAU,EAAE,EAAE;CACjB",
+    "sources": [
+        "WordBox.module.scss"
+    ],
+    "names": [],
+    "file": "WordBox.module.css"
+}

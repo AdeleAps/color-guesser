@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import colorNames from "./assets/pantone-colors.json";
+import "./App.css";
+import ColorBox from "./components/ColorBox";
+import WordBox from "./components/WordBox";
+
+const colorValue = Object.values(colorNames);
+const randomColor = colorValue[parseInt(Math.random() * colorValue.length)];
+const {name: colorName, hex: colorHex} = randomColor;
+const colorNameCleanedUp = colorName.replace("-", " ")
+console.log(colorNameCleanedUp);
+console.log(colorHex);
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ColorBox colorHex={colorHex} />
+      <WordBox colorName={colorNameCleanedUp} />
     </div>
   );
 }

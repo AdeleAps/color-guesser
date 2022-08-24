@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "CabinSketch-Reg";
+  src: url("../assets/fonts/CabinSketch-Regular.otf");
+}
+
+@font-face {
+  font-family: "CabinSketch-Bold";
+  src: url("../assets/fonts/CabinSketch-Bold.otf");
+}
+
+.color-box-wrapper {
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.color-box-wrapper h1 {
+  margin-top: 10%;
+  color: white;
+  font-family: "CabinSketch-Bold";
+  font-size: 80px;
+}
+/*# sourceMappingURL=ColorBox.module.css.map */

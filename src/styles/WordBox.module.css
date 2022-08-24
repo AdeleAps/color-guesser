@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Sans-Pro";
+  src: url("../assets/fonts/SourceSansPro-Semibold.otf");
+}
+
+.word-box-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3%;
+}
+/*# sourceMappingURL=WordBox.module.css.map */

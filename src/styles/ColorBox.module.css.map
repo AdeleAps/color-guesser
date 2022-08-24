@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,UAAU;EACN,WAAW,EAAE,iBAAiB;EAC9B,GAAG,EAAE,8CAA8C;;;AAEvD,UAAU;EACN,WAAW,EAAE,kBAAkB;EAC/B,GAAG,EAAE,2CAA2C;;;AAIpD,AAAA,kBAAkB,CAAC;EACf,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;CAQ1B;;AAXD,AAII,kBAJc,CAId,EAAE,CAAC;EACC,UAAU,EAAE,GAAG;EACf,KAAK,EAAE,KAAK;EACZ,WAAW,EAAE,kBAAkB;EAC/B,SAAS,EAAE,IAAI;CAElB",
+    "sources": [
+        "ColorBox.module.scss"
+    ],
+    "names": [],
+    "file": "ColorBox.module.css"
+}
