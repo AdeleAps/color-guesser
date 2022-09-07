@@ -56,6 +56,8 @@ const WordBox = (props) => {
     }
   });
 
+  /// lol
+
   useEffect(() => {
     document.addEventListener("keydown", handleKeyboard);
     return () => {
