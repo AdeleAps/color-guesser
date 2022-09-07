@@ -1,13 +1,3 @@
-@font-face {
-  font-family: "CabinSketch-Reg";
-  src: url("../assets/fonts/CabinSketch-Regular.otf");
-}
-
-@font-face {
-  font-family: "CabinSketch-Bold";
-  src: url("../assets/fonts/CabinSketch-Bold.otf");
-}
-
 .color-box-wrapper {
   height: 70vh;
   display: -webkit-box;

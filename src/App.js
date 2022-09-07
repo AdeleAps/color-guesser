@@ -7,14 +7,12 @@ const colorValue = Object.values(colorNames);
 const randomColor = colorValue[parseInt(Math.random() * colorValue.length)];
 const {name: colorName, hex: colorHex} = randomColor;
 const colorNameCleanedUp = colorName.replace("-", " ")
-console.log(colorNameCleanedUp);
-console.log(colorHex);
 
 function App() {
   return (
     <div className="App">
       <ColorBox colorHex={colorHex} />
-      <WordBox colorName={colorNameCleanedUp} />
+      <WordBox colorName={colorNameCleanedUp} colorHex={colorHex} />
     </div>
   );
 }

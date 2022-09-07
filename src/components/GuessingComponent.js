@@ -1,16 +1,17 @@
-import styles from "../styles/GuessContainer.module.css"
-
-
-function checkGap(value) {
-  if (value === "") {
-    return `marginLeft: "50px"`
-  }
-}
+import styles from "../styles/GuessContainer.module.css";
 
 const GuessingComponent = (props) => {
-  return <span className={styles["guess-container"]}>{props.value}</span>;
+
+  return (
+    <span
+      tabIndex={props.index} className={`${styles["guess-container"]} ${
+        props.value === " " ? styles["gap"] : ""
+      } ${
+        props.index === props.focus ? styles["focus"] : ""
+      }`}
+    >{ props.index === props.focus && props.selectedLetter}
+    </span>
+  );
 };
 
 export default GuessingComponent;
-
-// checkGap(props.value)

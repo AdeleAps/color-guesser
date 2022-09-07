@@ -1,12 +1,25 @@
 .guess-container {
+  font-family: "SourceSans";
   display: inline-block;
   width: 40px;
   height: 40px;
-  border-bottom: solid black 3px;
+  border-bottom: solid black 2px;
   margin-left: 10px;
+  font-size: 25px;
+  text-align: center;
+  color: #585858;
 }
 
-.gap {
-  margin-left: 40px;
+.guess-container:focus {
+  outline: none;
+}
+
+.guess-container.gap {
+  margin-left: 20px;
+  border-style: none;
+}
+
+.focus {
+  outline: solid 3px yellow;
 }
 /*# sourceMappingURL=GuessContainer.module.css.map */
