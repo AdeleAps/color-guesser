@@ -14,8 +14,11 @@
 }
 
 .guess-container.gap {
-  margin-left: 20px;
-  border-style: none;
+  margin-left: 50px;
+}
+
+.guess-container.hide {
+  display: none;
 }
 
 .focus {

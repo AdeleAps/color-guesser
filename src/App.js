@@ -7,6 +7,7 @@ const colorValue = Object.values(colorNames);
 const randomColor = colorValue[parseInt(Math.random() * colorValue.length)];
 const {name: colorName, hex: colorHex} = randomColor;
 const colorNameCleanedUp = colorName.replace("-", " ")
+console.log(colorNameCleanedUp);
 
 function App() {
   return (
